@@ -1,8 +1,18 @@
 
 
 
-test
+class
 
-Hello pardeep
 
-Hi Allan Sanidad
+# classes are defined with "class" keyword
+class Creature: 
+    def __init__(self, name, level): # self is explicitly passed everywhere
+        self.name = name
+        self.level = level # "__init__ is the initializer and is where fields are defined"
+
+
+    def walk (self): # def defines methods on the classes (instance and static)
+        print ('{} walks around'.format()self.name) 
+
+
+    
